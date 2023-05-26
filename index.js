@@ -121,3 +121,8 @@ for(whitebox of whiteBoxes3) {
         e.target.append(imgBox3);
     })
 }
+document.getElementsByClassName("button").onclick = function() {myFunction()};
+
+function myFunction() {
+  alert("Wrong connection");
+}
